@@ -51,5 +51,17 @@ class EmployeeControllertest1 {
 	}
 }
 
-
-
+/*==========ERROR==================
+Com.github.tomakehurst.wiremock.common.JsonException: {
+  "errors" : [ {
+    "code" : 10,
+    "source" : {
+      "pointer" : "/timestamp"
+    },
+    "title" : "Error parsing JSON",
+    "detail" : "Unrecognized field \"timestamp\" (class com.github.tomakehurst.wiremock.common.Errors), not marked as ignorable"
+  } ]
+}
+	at com.github.tomakehurst.wiremock.common.JsonException.fromJackson(JsonException.java:49)
+	=======================
+*/
